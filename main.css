@@ -2,27 +2,55 @@
     box-sizing: border-box;
 }
 
-body {
-    background-color: #FFE600;
-    font-family: Helvetica;
+@font-face {
+    font-family: 'Gogohack';
+    src: url('gogohack-jggy-webfont.woff2') format('woff2'),
+         url('gogohack-jggy-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
 
-.container {
-    background-color: rgb(255, 255, 255);
-    padding: 10px;
-    height: 400px;
+    @font-face {
+    font-family: 'Shrimp';
+    src: url('shrimp-webfont.woff2') format('woff2'),
+         url('shrimp-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 
+body {
+    background-color:#FFE600;
+    font-family: Shrimp, Helvetica;
+    font-size: 30pt;
+    color:#3A393C;
+}
+
+.header {
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-content: center;
+    justify-content: space-between;
+    padding: 20px;
+    height: 400px;
+    width: 100%;
+}
+
+.logo {
+    width: 270px;
+    height: 96.1992px;
+    margin-right: auto;
+
 }
 
 .menu {
-    width: 300px;
-    height: 100px;
+    padding: 20px;
+}
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
+a {
+    text-decoration: none;
+    color:#3A393C;
+    
+}
+
+a:hover {
+    color:white;
 }
