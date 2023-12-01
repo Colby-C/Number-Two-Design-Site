@@ -43,8 +43,11 @@ body {
 }
 
 .menu {
-    margin-left: auto;
-    padding: 20px;
+    margin-right: 20px;
+}
+
+.menu a:not(:last-child) {
+    margin-right: 20px;
 }
 
 a {
