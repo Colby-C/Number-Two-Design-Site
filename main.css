@@ -22,6 +22,7 @@ body {
     background-color:#FFE600;
     font-family: Shrimp, Helvetica;
     font-size: 30pt;
+    margin: 0;
     color:#3A393C;
 }
 
@@ -36,26 +37,163 @@ body {
 }
 
 .logo {
-    width: 405px;
-    height: 144.2988px;
+    max-width: 405px;
+    width: 100%;
+    /* height: 144.2988px; */
     margin-right: auto;
-
 }
 
 .menu {
     margin-right: 20px;
+    margin-left: 20px;
 }
 
-.menu a:not(:last-child) {
-    margin-right: 20px;
+.menu a {
+    padding-right: 20px;
 }
+
+/* .menu a:not(:last-child) {
+    margin-right: 20px;
+} */
 
 a {
     text-decoration: none;
-    color:#3A393C;
-    
+    color:#3A393C;   
 }
 
 a:hover {
     color:white;
+}
+
+.bottom {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.horizontal {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.horizontal-block {
+    background-color:#3A393C;
+    width: 100vw;
+    height: 100px;
+    margin-bottom: 100px;
+    align-items: center;
+}
+
+.horizontal-block:not(:first-child) {
+    margin-bottom: 0;
+}
+
+.vertical {
+    background-color: #3A393C;
+    width: 100vw;
+    /* height: 100vh; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-top: 0;
+    /* gap: 100px; */
+    flex-wrap: wrap;
+}
+
+.vertical-block {
+    background-color:#3A393C;
+    width: 100px;
+    height: 100vh;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+.icon {
+    /* position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%); */
+    max-width: calc(100%-20px-20px);
+    max-height: 200px;
+    padding: 30px;
+    /* margin-top: 300px; */
+}
+.logo-block {
+    flex: 0 1 auto;
+    width: 26%;
+    /* width: calc(33.33% - 80px); */
+    /* width: calc((100% - (2 * 10px)) / 3); */
+    height: auto;
+}
+
+.home-block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFE600;
+    height: 600px;
+}
+
+/* .dentistry {
+    flex: 0 1 auto;
+    width: calc((100% - (2 * 10px)) / 3);
+    height: auto;
+}
+
+.insugared {
+    flex: 0 1 auto;
+    width: calc((100% - (2 * 10px)) / 3);
+    height: auto;
+}
+
+.popfly {
+    flex: 0 1 auto;
+    width: calc((100% - (2 * 10px)) / 3);
+    height: auto;
+}
+
+.death {
+    flex: 0 1 auto;
+    width: calc((100% - (2 * 10px)) / 3);
+    height: auto;
+}
+
+.bowling {
+    flex: 0 1 auto;
+    width: calc((100% - (2 * 10px)) / 3);
+    height: auto;
+}
+
+.coin {
+    flex: 0 1 auto;
+    width: calc((100% - (2 * 10px)) / 3);
+    height: auto;
+} */
+
+@media screen and (max-width: 700px) {
+    .header {
+        flex-direction: column;
+    }
+
+    .icon {
+        padding: 70px;
+    }
+
+    .menu {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .horizontal-block {
+        max-height: 40px;
+        margin-bottom: 75px;
+    }
+
+    /* .logo-block {
+        width: 40%;
+    } */
 }
