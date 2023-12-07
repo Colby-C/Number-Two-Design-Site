@@ -26,6 +26,10 @@ body {
     color:#3A393C;
 }
 
+img {
+    max-width: 100%;
+}
+
 .header {
     display: flex;
     flex-direction: row;
@@ -81,7 +85,7 @@ a:hover {
 .horizontal-block {
     background-color:#3A393C;
     width: 100vw;
-    height: 100px;
+    height: 8vw;
     margin-bottom: 100px;
     align-items: center;
 }
@@ -99,8 +103,8 @@ a:hover {
     justify-content: space-between;
     align-items: flex-start;
     padding-top: 0;
-    /* gap: 100px; */
-    flex-wrap: wrap;
+    gap: 9vw;
+    /* flex-wrap: wrap; */
 }
 
 .content-container {
@@ -109,13 +113,14 @@ a:hover {
 }
 
 .text-container {
-    flex: 3;
+    flex: 2;
 }
 
 .image-container {
     flex: 1;
     display: flex;
     justify-content: flex-end;
+    align-items: center;
 }
 
 .vertical-block {
@@ -131,17 +136,21 @@ a:hover {
     top: 50%;
     left:50%;
     transform: translate(-50%,-50%); */
-    max-width: calc(100%-20px-20px);
-    max-height: 200px;
-    padding: 30px;
+    /* max-width: calc(100%-20px-20px); */
+    max-width: 200px;
+    width: 100%;
+    /* padding: 30px; */
     /* margin-top: 300px; */
 }
 .logo-block {
-    flex: 0 1 auto;
-    width: 28.75%;
+    /* flex: 0 1 auto; */
+    width: 100%;
     /* width: calc(33.33% - 80px); */
     /* width: calc((100% - (2 * 10px)) / 3); */
     height: auto;
+    /* width: calc(33% - 80px); */
+    display: flex;
+    flex-direction: column;
 }
 
 .home-block {
@@ -149,8 +158,8 @@ a:hover {
     align-items: center;
     justify-content: center;
     background-color: #FFE600;
-    width: 515px;
     height: 600px;
+    padding: 20px;
 }
 
 .about-block {
@@ -210,14 +219,14 @@ a:hover {
 .about-text {
     font-size: 25px;
     color:white;
-    width: 60%;
+    width: 75%;
     padding: 40px;
     align-items: flex-start;
 }
 
 .photo {
-    display: flex;
-    height: 600px;
+    /* display: flex; */
+    width: 600px;
     align-items: flex-end;
     padding: 40px;
 }
@@ -241,7 +250,6 @@ a:hover {
 .first-name {
     color: white;
 }
-
 
 #contact h2 {
     color: white;
@@ -306,10 +314,10 @@ button[type="submit"] {
     cursor: pointer;
 }
 
-<form action="send_email.php" method="post">
-    <!-- ... form fields here ... -->
-    <button type="submit">Send</button>
-</form>
+.button-container {
+    display: flex;
+    justify-content: center;
+}
 
 @media screen and (max-width: 700px) {
     .header {
@@ -317,7 +325,7 @@ button[type="submit"] {
     }
 
     .icon {
-        padding: 70px;
+        /* padding: 70px; */
     }
 
     .menu {
@@ -332,6 +340,37 @@ button[type="submit"] {
     }
 
     .logo-block {
-        width: 26%;
+        /* width: 26%; */
+    }
+
+    .home-block {
+        padding: 10px;
+    }
+
+    .content-container {
+        flex-direction: column;
+    }
+
+    h2 {
+        font-size: var(--h3-size, 1.17em); 
+        margin-top: var(--h3-margin-top, 1em);
+        margin-bottom: var(--h3-margin-bottom, 1em);
+    }
+
+    .about-text {
+        font-size: 20px;
+        width: 100%;
+    }
+
+    #contact label {
+        color: white;
+        font-size: 20px;
+    }
+
+    #contact .form-group input,
+    #contact .form-group textarea,
+    #contact .form-group select,
+    #contact button {
+    font-size: 20px;
     }
 }
