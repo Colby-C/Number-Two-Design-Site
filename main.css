@@ -159,7 +159,6 @@ a:hover {
     justify-content: center;
     background-color: #FFE600;
     height: 600px;
-    padding: 20px;
 }
 
 .about-block {
@@ -344,7 +343,7 @@ button[type="submit"] {
     }
 
     .home-block {
-        padding: 10px;
+        
     }
 
     .content-container {
