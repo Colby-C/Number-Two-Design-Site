@@ -18,9 +18,17 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'Times-Gothic';
+    src: url('bntimesgothic-webfont.woff2') format('woff2'),
+         url('bntimesgothic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
     background-color:#FFE600;
-    font-family: Shrimp, Helvetica;
+    font-family: Shrimp, Times-Gothic;
     font-size: 30pt;
     margin: 0;
     color:#3A393C;
@@ -119,7 +127,6 @@ a:hover {
 .image-container {
     flex: 1;
     display: flex;
-    justify-content: flex-end;
     align-items: center;
 }
 
@@ -137,7 +144,6 @@ a:hover {
     left:50%;
     transform: translate(-50%,-50%); */
     /* max-width: calc(100%-20px-20px); */
-    max-width: 200px;
     width: 100%;
     /* padding: 30px; */
     /* margin-top: 300px; */
@@ -164,6 +170,10 @@ a:hover {
 .about-block {
     background-color: #3A393C;
     width: 100%;
+}
+
+.comma {
+    font-family: times-gothic;
 }
 
 /* .dentistry {
@@ -225,8 +235,6 @@ a:hover {
 
 .photo {
     /* display: flex; */
-    width: 600px;
-    align-items: flex-end;
     padding: 40px;
 }
 
@@ -253,6 +261,7 @@ a:hover {
 #contact h2 {
     color: white;
     font-family: Gogohack, Helvetica Bold;
+    text-align: center;
 }
 
 #contact label {
