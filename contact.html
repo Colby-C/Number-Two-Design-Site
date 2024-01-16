@@ -25,8 +25,10 @@
                 <div class="contact-vertical">
                     <section id="contact">
                         <h2>LET'S WORK <span class="two">TWO</span>GETHER</h2>
-                        <form action="mailto:email@number2design.com" method="post" enctype="text/plain">
-                            <div class="form-group">
+                        <a href="mailto:email@number2design.com" class="email-image-link">
+                            <img src="pencil-mail-closed.png" alt="Email" class="email-image" id="email-image">
+                        </a>
+                            <!-- <div class="form-group">
                                 <label for="first-name">First Name:</label>
                                 <input type="text" id="first-name" name="first-name" required>
                             </div>
@@ -47,13 +49,21 @@
                             </div>
                             
                             <div class="button-container"><form action="send_email.php" method="post">
-                                <!-- ... form fields here ... -->
                                 <button type="submit">Send</button>
                             </form>
                             </div>
-                        </form>
+                        </form> -->
                     </section>
                     <div class="horizontal-block"></div>                    
                 </div>
+                <script>
+                    var emailImage = document.getElementById('email-image');
+emailImage.addEventListener('mouseenter', function() {
+    this.src = 'pencil-mail-opened.png'; // Path to the hover image
+});
+emailImage.addEventListener('mouseleave', function() {
+    this.src = 'pencil-mail-closed.png'; // Path to the original image
+});
+                </script>
     </body>
 </html>
