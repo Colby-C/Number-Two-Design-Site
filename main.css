@@ -101,6 +101,18 @@ a:hover {
     margin-bottom: 0;
 }
 
+.yellow-horizontal-block {
+    background-color:#FFE600;
+    width: 100vw;
+    height: 8vw;
+    margin-bottom: 100px;
+    align-items: center;
+}
+
+.yellow-horizontal-block:not(:first-child) {
+    margin-bottom: 0;
+}
+
 .vertical {
     background-color:#3A393C;
     width: 100vw;
@@ -135,6 +147,26 @@ a:hover {
     align-items: flex-start;
     padding-top: 0;
     gap: 9vw;
+}
+
+.zigzag {
+    width: 100vw;
+    height: 300px;
+    background-color: #3A393C;
+    background-image: linear-gradient(45deg, #0000ff 25%, transparent 25%),
+      linear-gradient(-45deg, #0000ff 25%, transparent 25%);
+    background-position: 30px 0, 30px 0, 0 0, 0 0;
+    background-size: 600px 600px;
+}
+
+.zigzag2 {
+    width: 100vw;
+    height: 300px;
+    background-color: #ffe600;
+    background-image: linear-gradient(45deg, #3A393C 25%, transparent 25%),
+      linear-gradient(-45deg, #3A393C 25%, transparent 25%);
+    background-position: 30px 0, 30px 0, 0 0, 0 0;
+    background-size: 600px 600px;
 }
 
 .text-container {
@@ -190,6 +222,11 @@ a:hover {
 }
 
 .comma {
+    font-family: times-gothic;
+}
+
+.quote-style {
+    quotes: "“" "”" "‘" "’";
     font-family: times-gothic;
 }
 
@@ -399,6 +436,11 @@ button[type="submit"] {
     }
 
     .horizontal-block {
+        max-height: 40px;
+        margin-bottom: 75px;
+    }
+
+    .yellow-horizontal-block {
         max-height: 40px;
         margin-bottom: 75px;
     }
