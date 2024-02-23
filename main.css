@@ -142,6 +142,44 @@ a:hover {
     flex-direction: column;
 }
 
+.images-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 0 40px;
+    overflow-x: auto;
+    gap: 40px;
+}
+
+.campus {
+    flex: 0 1 auto;
+    object-fit: contain;
+    height: auto;
+    padding: 40px;
+}
+
+.ima63 {
+    flex: 0 1 auto;
+    object-fit: contain;
+    height: auto;
+    padding: 40px;
+}
+
+.vcu {
+    flex: 0 1 auto;
+    object-fit: contain;
+    height: auto;
+    padding: 40px;
+}
+
+.odu {
+    flex: 0 1 auto;
+    object-fit: contain;
+    height: auto;
+    padding: 40px;
+}
+
 .logo-block-container {
     background-color:#3A393C;
     width: 100vw;
@@ -183,6 +221,10 @@ a:hover {
 
 .collar.yellow {
     color:#FFE600;
+}
+
+.collar.gray {
+    color:#3a393c;
 }
 
 .collar.dentistry {
