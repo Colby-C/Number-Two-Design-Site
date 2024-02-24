@@ -179,6 +179,7 @@ a:hover {
 .logo-block-container {
     background-color:#3A393C;
     width: 100vw;
+    min-height: 100vh;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -187,6 +188,7 @@ a:hover {
     gap: 9vw;
     position: relative;
     overflow-x: hidden;
+    overflow-y: visible;
 }
 
 .collar-filler {
