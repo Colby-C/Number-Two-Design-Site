@@ -225,6 +225,14 @@ a:hover {
     color:#3a393c;
 }
 
+.collar.jet {
+    color:#222d4b;
+}
+
+.collar.kp {
+    color:#73000a;
+}
+
 .collar.dentistry {
     color:#0000ff;
 }
@@ -255,6 +263,10 @@ a:hover {
 
 .collar.arctic {
     color:#67e0fc;
+}
+
+.collar.captain {
+    color:#19345f;
 }
 
 .collar-inverse {
