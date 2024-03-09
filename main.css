@@ -188,7 +188,6 @@ a:hover {
     gap: 9vw;
     position: relative;
     overflow-x: hidden;
-    overflow-y: visible;
 }
 
 .collar-filler {
@@ -223,6 +222,10 @@ a:hover {
 
 .collar.gray {
     color:#3a393c;
+}
+
+.collar.day {
+    color:#0b274f;
 }
 
 .collar.jet {
@@ -584,14 +587,14 @@ button[type="submit"] {
     }
 
     .logo-block-container {
-        flex-direction: column;
+        /* flex-direction: column; */
         gap: 0;
     }
 
     .desktop-collar {
         display: none;
     }
-
+    
     .collar { 
       border-left: 50vw solid transparent;
       border-right: 50vw solid transparent;
