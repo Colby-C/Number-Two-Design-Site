@@ -225,7 +225,7 @@ a:hover {
 }
 
 .collar.day {
-    color:#0b274f;
+    color:#003057;
 }
 
 .collar.jet {
@@ -579,6 +579,8 @@ button[type="submit"] {
         font-size: var(--h3-size, 1.17em)/(1/4); 
         margin-top: 20px;
         margin-bottom: var(--h3-margin-bottom, 1em);
+        overflow-wrap: break-word;
+        word-wrap: break-word;
     }
     
     .work-text {
@@ -587,7 +589,7 @@ button[type="submit"] {
     }
 
     .logo-block-container {
-        /* flex-direction: column; */
+        flex-direction: column;
         gap: 0;
     }
 
@@ -623,6 +625,62 @@ button[type="submit"] {
     }
 
     .work-filler {
+        display: none;
+    }
+
+    .yellow-filler {
+        display: none;
+    }
+    
+    .gray-filler {
+        display: none;
+    }
+    
+    .day-filler {
+        display: none;
+    }
+    
+    .jet-filler {
+        display: none;
+    }
+    
+    .kp-filler {
+        display: none;
+    }
+    
+    .dentistry-filler {
+        display: none;
+    }
+    
+    .insugared-filler {
+        display: none;
+    }
+    
+    .popfly-filler {
+        display: none;
+    }
+    
+    .door-filler {
+        display: none;
+    }
+    
+    .bowling-filler {
+        display: none;
+    }
+    
+    .black-filler {
+        display: none;
+    }
+    
+    .doubloon-filler {
+        display: none;
+    }
+    
+    .arctic-filler {
+        display: none;
+    }
+    
+    .captain-filler {
         display: none;
     }
 
