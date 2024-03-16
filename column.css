@@ -1,0 +1,9 @@
+@media screen and (max-width: 700px) {
+    .logo-block-container {
+        flex-direction: column;
+    }
+
+    .logo-block {
+        width: 100%;
+    }
+}
