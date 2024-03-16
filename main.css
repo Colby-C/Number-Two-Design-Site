@@ -564,6 +564,10 @@ button[type="submit"] {
         margin-top: 20px;
     }
 
+    .vertical {
+        margin-bottom: 0;
+    }
+
     .horizontal-block {
         max-height: 40px;
         margin-bottom: 75px;
@@ -589,13 +593,13 @@ button[type="submit"] {
         width: 100%;
     }
 
-    .logo-block {
-        width: calc((100% - (16vw)) / 3);
-    }
-
     .logo-block-container {
         /* flex-direction: column; */
         gap: 0;
+    }
+
+    .logo-block {
+        width: calc((100% - (16vw)) / 3);
     }
 
     .logo-block {
@@ -681,7 +685,7 @@ button[type="submit"] {
         display: none;
     }
     
-    .black-filler {
+    .coin-filler {
         display: none;
     }
     
