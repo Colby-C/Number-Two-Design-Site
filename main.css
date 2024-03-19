@@ -114,6 +114,15 @@ a:hover {
     margin-bottom: 0;
 }
 
+.collar-horizontal-block {
+    background-color:#3A393C;
+    width: 100vw;
+    height: 8vw;
+    margin-bottom: 100px;
+    align-items: center;
+    display: none;
+}
+
 .vertical {
     background-color:#3A393C;
     width: 100vw;
@@ -151,7 +160,7 @@ a:hover {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    padding: 0 40px;
+    padding: 40px 40px;
     overflow-x: auto;
     gap: 40px;
 }
@@ -578,6 +587,10 @@ button[type="submit"] {
         margin-bottom: 75px;
     }
 
+    .collar-horizontal-block {
+        display: block;
+    }
+
     .content-container {
         flex-direction: column;
     }
@@ -685,7 +698,7 @@ button[type="submit"] {
         display: none;
     }
     
-    .coin-filler {
+    .black-filler {
         display: none;
     }
     
