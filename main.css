@@ -106,7 +106,7 @@ a:hover {
     background-color:#FFE600;
     width: 100vw;
     height: 8vw;
-    margin-bottom: 100px;
+    /* margin-bottom: 100px; */
     align-items: center;
 }
 
@@ -132,9 +132,7 @@ a:hover {
     align-items: flex-start;
     padding-top: 0;
     gap: 9vw;
-    position: relative;
-    z-index: 9;
-    margin-bottom: 13.55vw;
+    margin-bottom: 13.5vw;
 }
 
 .no-gap-container {
@@ -200,6 +198,7 @@ a:hover {
     padding-top: 0;
     gap: 9vw;
     position: relative;
+    margin-bottom: 13.5vw;
 }
 
 .collar-filler {
@@ -226,6 +225,10 @@ a:hover {
   border-left: 13.666vw solid transparent;
   border-right: 13.666vw solid transparent;
   border-top: 13.666vw solid;
+}
+
+.svg-collar {
+    display: none;
 }
 
 .collar.yellow {
@@ -282,6 +285,62 @@ a:hover {
 
 .collar.captain {
     color:#19345f;
+}
+
+.yellow-mobile {
+    display: none;
+}
+
+.gray-mobile {
+    display: none;
+}
+
+.day-mobile {
+    display: none;
+}
+
+.jet-mobile {
+    display: none;
+}
+
+.kp-mobile {
+    display: none;
+}
+
+.dentistry-mobile {
+    display: none;
+}
+
+.insugared-mobile {
+    display: none;
+}
+
+.popfly-mobile {
+    display: none;
+}
+
+.door-mobile {
+    display: none;
+}
+
+.bowling-mobile {
+    display: none;
+}
+
+.coin-mobile {
+    display: none;
+}
+
+.doubloon-mobile {
+    display: none;
+}
+
+.arctic-mobile {
+    display: none;
+}
+
+.captain-mobile {
+    display: none;
 }
 
 .collar-inverse {
@@ -377,6 +436,7 @@ a:hover {
     align-items: flex-start;
     padding-top: 0;
     gap: 9vw;
+    margin-bottom: 13.5vw;
 }
 
 .work-text {
@@ -648,6 +708,14 @@ button[type="submit"] {
       display: none;
     }
 
+    .svg-collar {
+        display: block;
+        transform: scale(1.1) translateY(-10px);
+        position: relative;
+        z-index: 99;
+        overflow: visible;
+    }
+
     .collar-filler {
         height: 50vw;
         bottom: -50vw;
@@ -712,6 +780,62 @@ button[type="submit"] {
     
     .captain-filler {
         display: none;
+    }
+
+    .yellow-mobile {
+        display: block;
+    }
+
+    .gray-mobile {
+        display: block;
+    }
+    
+    .day-mobile {
+        display: block;
+    }
+    
+    .jet-mobile {
+        display: block;
+    }
+    
+    .kp-mobile {
+        display: block;
+    }
+    
+    .dentistry-mobile {
+        display: block;
+    }
+    
+    .insugared-mobile {
+        display: block;
+    }
+    
+    .popfly-mobile {
+        display: block;
+    }
+    
+    .door-mobile {
+        display: block;
+    }
+    
+    .bowling-mobile {
+        display: block;
+    }
+    
+    .coin-mobile {
+        display: block;
+    }
+    
+    .doubloon-mobile {
+        display: block;
+    }
+    
+    .arctic-mobile {
+        display: block;
+    }
+    
+    .captain-mobile {
+        display: block;
     }
 
     .about-text {
