@@ -231,6 +231,10 @@ a:hover {
     display: none;
 }
 
+.svg-work-collar {
+    display: none;
+}
+
 .collar.yellow {
     color:#FFE600;
 }
@@ -669,6 +673,11 @@ button[type="submit"] {
     .logo-block-container {
         /* flex-direction: column; */
         gap: 0;
+        margin-bottom: 0;
+    }
+
+    .work-vertical {
+        margin-bottom: 0;
     }
 
     .logo-block {
@@ -711,6 +720,14 @@ button[type="submit"] {
     .svg-collar {
         display: block;
         transform: scale(1.1) translateY(-10px);
+        position: relative;
+        z-index: 99;
+        overflow: visible;
+    }
+
+    .svg-work-collar {
+        display: block;
+        transform: scale(1.1) translateY(-85px);
         position: relative;
         z-index: 99;
         overflow: visible;
