@@ -409,11 +409,19 @@ a:hover {
     position: relative;
 }
 
+.logo-block a:hover {
+    background-color:#FFE600;
+}
+
+.logo-block a:hover img {
+    opacity: 0.6;
+}
+
 .home-block {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #FFE600;
+    background-color:#FFE600;
     height: 600px;
 }
 
