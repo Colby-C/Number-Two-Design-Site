@@ -331,7 +331,7 @@ a:hover {
     display: none;
 }
 
-.coin-mobile {
+.black-mobile {
     display: none;
 }
 
@@ -344,6 +344,10 @@ a:hover {
 }
 
 .captain-mobile {
+    display: none;
+}
+
+.mobile-filler {
     display: none;
 }
 
@@ -496,6 +500,14 @@ a:hover {
     height: auto;
 } */
 
+.web-header {
+    display: block;
+}
+
+.mobile-header {
+    display: none;
+}
+
 .two {
     color: #FFE600;
 }
@@ -506,6 +518,7 @@ h2 {
 
 .subheader {
     padding-left: 40px;
+    font-size: 65px;
 }
 
 .subheader h2 {
@@ -671,6 +684,14 @@ button[type="submit"] {
 
     .content-container {
         flex-direction: column;
+    }
+
+    .web-header {
+        display: none;
+    }
+    
+    .mobile-header {
+        display: block;
     }
 
     h2 {
@@ -853,7 +874,7 @@ button[type="submit"] {
         display: block;
     }
     
-    .coin-mobile {
+    .black-mobile {
         display: block;
     }
     
@@ -872,6 +893,10 @@ button[type="submit"] {
     .about-text {
         font-size: 20px;
         width: 100%;
+    }
+
+    .mobile-filler {
+        display: block;
     }
 
     #contact label {
