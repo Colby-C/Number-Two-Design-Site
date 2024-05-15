@@ -243,6 +243,10 @@ a:hover {
     color:#3a393c;
 }
 
+.collar.jones {
+    color:#98C5EA;
+}
+
 .collar.day {
     color:#003057;
 }
@@ -296,6 +300,10 @@ a:hover {
 }
 
 .gray-mobile {
+    display: none;
+}
+
+.jones-mobile {
     display: none;
 }
 
@@ -785,6 +793,10 @@ button[type="submit"] {
     .gray-filler {
         display: none;
     }
+
+    .jones-filler {
+        display: none;
+    }
     
     .day-filler {
         display: none;
@@ -839,6 +851,10 @@ button[type="submit"] {
     }
 
     .gray-mobile {
+        display: block;
+    }
+
+    .jones-mobile {
         display: block;
     }
     
