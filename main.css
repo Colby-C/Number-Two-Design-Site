@@ -243,7 +243,15 @@ a:hover {
     color:#3a393c;
 }
 
-.collar.jones {
+.collar.white {
+    color:#FFFFFF;
+}
+
+.collar.rodscones{
+    color:#6bcef3;
+}
+
+.collar.joneshodge {
     color:#98C5EA;
 }
 
@@ -303,7 +311,15 @@ a:hover {
     display: none;
 }
 
-.jones-mobile {
+.white-mobile {
+    display: none;
+}
+
+.rodscones-mobile {
+    display: none;
+}
+
+.jones-hodge-mobile {
     display: none;
 }
 
@@ -794,7 +810,15 @@ button[type="submit"] {
         display: none;
     }
 
-    .jones-filler {
+    .white-filler {
+        display: none;
+    }
+
+    .rodscones-filler {
+        display: none;
+    }
+
+    .jones-hodge-filler {
         display: none;
     }
     
@@ -854,7 +878,15 @@ button[type="submit"] {
         display: block;
     }
 
-    .jones-mobile {
+    .white-mobile {
+        display: block;
+    }
+
+    .rodscones-mobile {
+        display: block;
+    }
+
+    .jones-hodge-mobile {
         display: block;
     }
     
